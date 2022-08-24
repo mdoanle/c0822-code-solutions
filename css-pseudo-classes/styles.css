@@ -8,6 +8,7 @@ button {
 button:hover {
   background-color: red;
   color: gold;
+  cursor: pointer;
 }
 
 thead {
