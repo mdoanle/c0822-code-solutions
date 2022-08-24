@@ -1,0 +1,19 @@
+h1 {
+  font-family: 'Aboreto', cursive;
+  line-height: 1.4em;
+}
+
+h2 {
+  font-style:italic;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p.font1 {
+  font-family: 'Aboreto', cursive;
+  line-height: 1.4em;
+}
+
+p.font2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4em;
+}
