@@ -1,5 +1,5 @@
 h2 {
-  text-align: center;
+  margin-left: 48%;
   font-family: "Brandon Grotesque", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -14,7 +14,7 @@ label {
   font-style: normal;
   font-weight: 500;
   font-size: 0.6rem;
-  padding-left: 27%;
+  padding-left: 33.5%;
   padding-bottom: 2px;
   color: black;
   letter-spacing: 0.5px;
@@ -22,8 +22,8 @@ label {
 
 input {
   display: block;
-  padding: 10px 225px 10px 10px;
-  margin-left: 26%;
+  padding: 10px 245px 10px 10px;
+  margin-left: 33%;
   border-radius: 5px;
   border-color: rgb(213 213 213);
   border-width: thin;
@@ -39,8 +39,8 @@ input {
 
 select {
   display: block;
-  padding: 10px 287px 10px 2px;
-  margin-left: 26%;
+  padding: 10px 305px 10px 2px;
+  margin-left: 33%;
   border-radius: 5px;
   border-color: rgb(213 213 213);
   border-width: thin;
@@ -62,4 +62,10 @@ select {
   font-style: normal;
   font-weight: 500;
   border: thin;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
