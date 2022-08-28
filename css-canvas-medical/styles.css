@@ -1,0 +1,303 @@
+.container {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+  background-color: rgb(250 250 250);
+  padding-top: 5rem;
+  margin-top: 5rem;
+}
+
+.hero-picture > section {
+  position: absolute;
+  top: 10%;
+  left: 8%;
+  color: rgb(255 255 255);
+}
+
+div.column-full > section {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+
+.clinicians-prefer {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #6e6e6e;
+}
+
+.clinicians-prefer > h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #8a8a8a;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.left-column {
+  text-align: center;
+  line-height: 3rem;
+  margin-left: 14rem;
+}
+
+.right-column {
+  text-align: center;
+  line-height: 3rem;
+  margin-right: 17rem;
+}
+
+div.column-half > p {
+  font-size: 0.85rem;
+}
+
+#locations {
+  background-color: rgb(250 250 250);
+  padding: 2rem;
+}
+
+.learn-more {
+  margin-left: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+section.learn-more > h2 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #6e6e6e;
+}
+
+section.learn-more > p {
+  font-size: 0.75rem;
+}
+
+.get-started {
+  padding: 0.6rem 2rem;
+  margin-top: 3.5rem;
+  margin-left: 50%;
+  color: white;
+  background-color: rgb(41 67 99);
+  border-radius: 5px;
+  border-style: solid;
+  border: thin;
+}
+
+.get-started:hover {
+  color: yellow;
+}
+
+[value] {
+  font-size: 1rem;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.column-quarter {
+  flex-basis: 25%;
+  background-color: rgb(82 83 81);
+}
+
+div.column-quarter > section {
+  padding: 5rem;
+}
+
+.logo-white {
+  height: 1.5rem;
+  width: 8rem;
+  margin-bottom: 1rem;
+}
+
+.address {
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  color: rgb(233 233 233);
+}
+
+div.column-quarter > p {
+  margin-top: 5rem;
+  margin-left: 5px;
+  color: rgb(233 233 233);
+}
+
+.hero-picture > input {
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+  padding: 13px 3rem;
+  background-color: rgb(41 67 99);
+  border: thin;
+  color: white;
+}
+
+div.column-quarter > input {
+  display: block;
+  border: none;
+  background-color: rgb(82 83 81);
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: rgb(233 233 233);
+}
+
+.hero-picture > input:hover {
+  color: yellow;
+}
+
+div.column-quarter > input:hover {
+  color: yellow;
+}
+
+#nav-bar {
+  margin-top: 2rem;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
+
+#canvas-nav-bar {
+  margin-left: 2rem;
+  background-color: white;
+}
+
+#nav-white-space {
+  background-color: white;
+}
+
+#nav-bar-two-buttons {
+  background-color: white;
+}
+
+#nav-bar-three-buttons > input {
+  background-color: white;
+  color: rgb(182 182 182);
+  margin-bottom: 1px;
+}
+
+#nav-bar-two-buttons > input {
+  background-color: white;
+  display: inline-block;
+  color: rgb(182 182 182);
+}
+
+#nav-bar-two-buttons > input:hover {
+  color: yellow;
+}
+
+.product-input {
+  background-color: white;
+}
+
+#nav-bar-two-buttons > .product-input {
+  margin-right: 2rem;
+  display: inline;
+}
+
+#nav-bar-two-buttons > .implementation {
+  margin-left: 2rem;
+  margin-top: 1.1rem;
+}
+
+#canvas-nav-bar > img {
+  height: 1.5rem;
+  width: 8rem;
+  margin-left: 3rem;
+  margin-top: 0.9rem;
+}
+
+#nav-bar-three-buttons {
+  background-color: white;
+  display: inline;
+}
+
+#nav-bar-three-buttons > input:hover {
+  color: yellow;
+}
+
+#nav-bar-three-buttons > .about-us {
+  display: inline-block;
+}
+
+#nav-bar-three-buttons > .blog {
+  margin-left: 7px;
+  display: inline;
+}
+
+#nav-bar-three-buttons > .get-started {
+  background-color: rgb(41 67 99);
+  display: inline;
+  color: white;
+  margin-left: 2rem;
+}
+
+#hero-portion {
+  margin-top: 5rem;
+}
+
+.hero-picture {
+  height: 600px;
+  width: 1100px;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  position: relative;
+  left: 12%;
+  top: 50%;
+}
+
+.hero-portion-headline {
+  font-size: 2.75rem;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.hero-portion-text {
+  line-height: 2rem;
+  font-size: 1rem;
+  color: rgb(255 255 255);
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#privacy {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.privacy-terms {
+  margin-left: 2rem;
+  border: none;
+  background-color: white;
+  color: rgb(168 168 168);
+}
+
+.contact-us {
+  margin-left: 2rem;
+  border: none;
+  background-color: white;
+  color: rgb(168 168 168);
+}
+
+#privacy > input:hover {
+  color: yellow;
+}
