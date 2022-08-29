@@ -14,10 +14,22 @@
   text-align: center;
 }
 
-.header > h1 {
+h1 {
   font-family: Karla, sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 0.8rem;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+
+.header > h1 {
   font-size: 250%;
   letter-spacing: 5px;
 }
@@ -48,26 +60,11 @@
   margin-right: 5rem;
 }
 
-.top-left > h1 {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-
-.top-left > p {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 1.5rem;
-}
-
 #flexbox-tl {
   margin-top: 2rem;
 }
 
-.africa-image {
+img {
   height: 125px;
   width: 125px;
   margin-bottom: 1rem;
@@ -79,31 +76,9 @@
   margin-bottom: 4rem;
 }
 
-.top-right > h1 {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-
-.top-right > p {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 1.5rem;
-}
-
 #flexbox-tr {
   margin-top: 1.5rem;
   margin-right: 0;
-}
-
-.heart-image {
-  height: 125px;
-  width: 125px;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
 }
 
 #image-tr {
@@ -115,30 +90,8 @@
   margin-right: 5rem;
 }
 
-.bottom-left > h1 {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-
-.bottom-left > p {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 1.5rem;
-}
-
 #flexbox-bl {
   margin-top: 2rem;
-}
-
-.plus-image {
-  height: 125px;
-  width: 125px;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
 }
 
 #image-bl {
@@ -146,31 +99,9 @@
   margin-bottom: 4rem;
 }
 
-.bottom-right > h1 {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 0.8rem;
-}
-
-.bottom-right > p {
-  font-family: Karla, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 1.5rem;
-}
-
 #flexbox-br {
   margin-top: 1.5rem;
   margin-right: 0;
-}
-
-.pointy-image {
-  height: 125px;
-  width: 125px;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
 }
 
 #image-br {
