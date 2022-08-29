@@ -5,12 +5,13 @@
 
 .row {
   display: flex;
-  justify-content: right;
 }
 
 .column-full {
   flex-basis: 100%;
-  justify-content: center;
+}
+
+.header {
   text-align: center;
 }
 
@@ -56,11 +57,11 @@ p {
   flex-basis: calc(200%/3);
 }
 
-#top-row {
+.top-row {
   margin-right: 5rem;
 }
 
-#flexbox-tl {
+.flexbox-tl {
   margin-top: 2rem;
 }
 
@@ -71,47 +72,42 @@ img {
   margin-left: 2rem;
 }
 
-#image-tl {
+.image-tl {
   margin-left: 2rem;
   margin-bottom: 4rem;
 }
 
-#flexbox-tr {
+.flexbox-tr {
   margin-top: 1.5rem;
   margin-right: 0;
 }
 
-#image-tr {
+.image-tr {
   margin-left: 4rem;
   margin-bottom: 4rem;
 }
 
-#bottom-row {
+.bottom-row {
   margin-right: 5rem;
 }
 
-#flexbox-bl {
+.flexbox-bl {
   margin-top: 2rem;
 }
 
-#image-bl {
+.image-bl {
   margin-left: 2rem;
   margin-bottom: 4rem;
 }
 
-#flexbox-br {
+.flexbox-br {
   margin-top: 1.5rem;
   margin-right: 0;
 }
 
-#image-br {
+.image-br {
   margin-left: 4rem;
   margin-bottom: 4rem;
-}
-
-#final-row {
-  margin-top: 5px;
-  margin-bottom: 3rem;
 }
 
 input {
@@ -120,7 +116,13 @@ input {
   border: solid red;
 }
 
-[value] {
+.final-row > input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bottom-input {
   font-family: Karla, sans-serif;
   font-style: normal;
   font-weight: 700;
