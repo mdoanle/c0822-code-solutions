@@ -129,10 +129,50 @@ div.column-quarter > section {
   color: rgb(233 233 233);
 }
 
-div.column-quarter > p {
+h3 {
   margin-top: 5rem;
-  margin-left: 5px;
-  color: rgb(233 233 233);
+  margin-left: 2.4rem;
+  font-size: 1rem;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(250 250 250);
+}
+
+li {
+  line-height: 2rem;
+  margin-right: 2rem;
+  list-style: none;
+  color: rgb(250 250 250);
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#nav-bar {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: thin solid rgb(236 239 241);
+}
+
+.column-half > img {
+  height: 50%;
+  width: 50%;
+}
+
+.column-half > a {
+  margin: 1.5rem;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.column-half > input {
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(41 66 98);
+  border: thin;
+  border-radius: 5px;
+  color: rgb(252 252 253);
 }
 
 .hero-picture > input {
@@ -145,106 +185,17 @@ div.column-quarter > p {
   color: white;
 }
 
-div.column-quarter > input {
-  display: block;
-  border: none;
-  background-color: rgb(82 83 81);
-  margin-bottom: 5px;
-  margin-top: 10px;
-  color: rgb(233 233 233);
+.column-half > input:hover {
+  color: yellow;
 }
 
 .hero-picture > input:hover {
   color: yellow;
 }
 
-div.column-quarter > input:hover {
-  color: yellow;
-}
-
-#nav-bar {
-  margin-top: 2rem;
-  border-bottom: 1px solid gray;
-  padding-bottom: 15px;
-}
-
-#canvas-nav-bar {
-  margin-left: 2rem;
-  background-color: white;
-}
-
-#nav-white-space {
-  background-color: white;
-}
-
-#nav-bar-two-buttons {
-  background-color: white;
-}
-
-#nav-bar-three-buttons > input {
-  background-color: white;
-  color: rgb(182 182 182);
-  margin-bottom: 1px;
-}
-
-#nav-bar-two-buttons > input {
-  background-color: white;
-  display: inline-block;
-  color: rgb(182 182 182);
-}
-
-#nav-bar-two-buttons > input:hover {
-  color: yellow;
-}
-
-.product-input {
-  background-color: white;
-}
-
-#nav-bar-two-buttons > .product-input {
-  margin-right: 2rem;
-  display: inline;
-}
-
-#nav-bar-two-buttons > .implementation {
-  margin-left: 2rem;
-  margin-top: 1.1rem;
-}
-
-#canvas-nav-bar > img {
-  height: 1.5rem;
-  width: 8rem;
-  margin-left: 3rem;
-  margin-top: 0.9rem;
-}
-
-#nav-bar-three-buttons {
-  background-color: white;
-  display: inline;
-}
-
-#nav-bar-three-buttons > input:hover {
-  color: yellow;
-}
-
-#nav-bar-three-buttons > .about-us {
-  display: inline-block;
-}
-
-#nav-bar-three-buttons > .blog {
-  margin-left: 7px;
-  display: inline;
-}
-
-#nav-bar-three-buttons > .get-started {
-  background-color: rgb(41 67 99);
-  display: inline;
-  color: white;
-  margin-left: 2rem;
-}
-
 #hero-portion {
-  margin-top: 5rem;
+  margin-top: 2rem;
+  margin-right: 18%;
 }
 
 .hero-picture {
