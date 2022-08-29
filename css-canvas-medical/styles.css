@@ -8,9 +8,6 @@
 
 .column-full {
   flex-basis: 100%;
-  background-color: rgb(250 250 250);
-  padding-top: 5rem;
-  margin-top: 5rem;
 }
 
 .hero-picture > section {
@@ -31,6 +28,12 @@ div.column-full > section {
   font-style: normal;
   font-weight: normal;
   color: #6e6e6e;
+}
+
+.clinicians-prefer-bg {
+  background-color: rgb(250 250 250);
+  padding-top: 5rem;
+  margin-top: 5rem;
 }
 
 .clinicians-prefer > h2 {
@@ -60,7 +63,15 @@ p {
   margin-right: 17rem;
 }
 
-div.column-half > p {
+.address > p {
+  color: rgb(250 250 250);
+}
+
+div.left-column > p {
+  font-size: 0.85rem;
+}
+
+div.right-column > p {
   font-size: 0.85rem;
 }
 
@@ -127,6 +138,8 @@ div.column-quarter > section {
   font-size: 0.75rem;
   line-height: 1.5rem;
   color: rgb(233 233 233);
+  margin-left: 5rem;
+  margin-top: 5rem;
 }
 
 h3 {
@@ -149,15 +162,15 @@ li {
   font-weight: 500;
 }
 
-#nav-bar {
+.nav-bar {
   margin-top: 3rem;
-  margin-bottom: 1rem;
   border-bottom: thin solid rgb(236 239 241);
 }
 
 .column-half > img {
-  height: 50%;
-  width: 50%;
+  height: 40%;
+  width: 40%;
+  padding-left: 5rem;
 }
 
 .column-half > a {
@@ -183,6 +196,11 @@ li {
   background-color: rgb(41 67 99);
   border: thin;
   color: white;
+}
+
+.nav-bar-right > input {
+  margin-left: 90%;
+  margin-bottom: 2rem;
 }
 
 .column-half > input:hover {
@@ -251,4 +269,28 @@ li {
 
 #privacy > input:hover {
   color: yellow;
+}
+
+.about-us {
+  background-color: rgb(82 83 81);
+}
+
+.company {
+  display: inline-block;
+  margin-bottom: 5rem;
+  margin-left: 3rem;
+}
+
+.company > ul {
+  margin-bottom: 5rem;
+}
+
+.product {
+  display: inline-block;
+  margin-top: 3.5rem;
+  margin-left: 8rem;
+}
+
+.nav-bar-right {
+  margin-right: 7rem;
 }
