@@ -1,13 +1,8 @@
-var fullName;
-var isCool;
-var totalPets;
-var unknown;
+var fullName = 'Markus Doan-Le';
+var isCool = false;
+var totalPets = 2;
+var unknown = null;
 var never;
-
-fullName = 'Markus Doan-Le';
-isCool = false;
-totalPets = 2;
-unknown = null;
 
 console.log('value of fullName =', fullName);
 console.log('value of isCool? =', isCool);
