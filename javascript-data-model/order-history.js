@@ -1,13 +1,16 @@
 var orderHistory = [
   {
-    itemInfo: {
-      typeOfItem: 'Book',
-      nameOfItem: 'JavaScript for impatient programmers',
-      author: 'Rauschmayer, Dr. Axel',
-      itemPrice: 31.55,
-      itemImage: 'rhino-book-image.jpg',
-      returnWindowCloses: 'September 7, 2020'
-    },
+    itemInfo:
+    [
+      {
+        typeOfItem: 'Book',
+        nameOfItem: 'JavaScript for impatient programmers',
+        author: 'Rauschmayer, Dr. Axel',
+        itemPrice: 31.55,
+        itemImage: 'rhino-book-image.jpg',
+        returnWindowCloses: 'September 7, 2020'
+      }
+    ],
     orderPlaced: 'August 4, 2020',
     deliveredDate: 'August 8, 2020',
     orderTotal: 34.00,
@@ -17,14 +20,17 @@ var orderHistory = [
     handedToResident: false
   },
   {
-    itemInfo: {
-      typeOfItem: 'Book',
-      nameOfItem: 'The Timeless Way of Building',
-      author: 'Alexander, Christopher',
-      itemPrice: 41.33,
-      itemImage: 'timeless-way.jpg',
-      returnWindowCloses: 'August 19, 2020'
-    },
+    itemInfo:
+    [
+      {
+        typeOfItem: 'Book',
+        nameOfItem: 'The Timeless Way of Building',
+        author: 'Alexander, Christopher',
+        itemPrice: 41.33,
+        itemImage: 'timeless-way.jpg',
+        returnWindowCloses: 'August 19, 2020'
+      }
+    ],
     orderPlaced: 'July 19, 2020',
     deliveredDate: 'July 20, 2020',
     orderTotal: 44.53,
@@ -34,13 +40,16 @@ var orderHistory = [
     handedToResident: true
   },
   {
-    itemInfo: {
-      typeOfItem: 'Hardware',
-      nameOfItem: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for Wii U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
-      itemPrice: 15.98,
-      itemImage: 'gamecube-adaptor.jpg',
-      returnWindowCloses: 'August 5, 2020'
-    },
+    itemInfo:
+    [
+      {
+        typeOfItem: 'Hardware',
+        nameOfItem: 'Gamecube Controller Adapter. Super Smash Bros Switch Gamecube Adapter for Wii U, PC. Support Turbo and Vibration Features. No Driver and No Lag-Gamecube Adapter',
+        itemPrice: 15.98,
+        itemImage: 'gamecube-adaptor.jpg',
+        returnWindowCloses: 'August 5, 2020'
+      }
+    ],
     orderPlaced: 'July 4, 2020',
     deliveredDate: 'July 7, 2020',
     orderTotal: 17.22,
