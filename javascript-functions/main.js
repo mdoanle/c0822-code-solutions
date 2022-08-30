@@ -5,7 +5,7 @@ function convertMinutesToSeconds(minutes) {
 
 function greet(name) {
   var greeting = 'Hey, ' + name;
-  console.log('Result of greet function:', greeting);
+  return greeting;
 }
 
 function getArea(width, height) {
@@ -14,16 +14,16 @@ function getArea(width, height) {
 }
 
 function getFirstName(person) {
-  console.log('Result of getFirstName function:', person.firstName);
+  return person.firstName;
 }
 
 function getLastElement(array) {
   var lastIndex = array.length - 1;
-  console.log('Result of getLastElement function:', array[lastIndex]);
+  return array[lastIndex];
 }
 
 console.log('Result of function convertMinutesToSeconds:', convertMinutesToSeconds(5));
-console.log(greet('Beavis'));
+console.log('Result of function greet:', greet('Beavis'));
 console.log('Result of function getArea:', getArea(17, 42));
-console.log(getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' }));
-console.log(getLastElement(['propane', 'and', 'propane', 'accessories']));
+console.log('Result of function getFirstName:', getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' }));
+console.log('Result of function getLastElement:', getLastElement(['propane', 'and', 'propane', 'accessories']));
