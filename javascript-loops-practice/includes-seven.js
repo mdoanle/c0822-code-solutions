@@ -1,12 +1,12 @@
 /* exported includesSeven */
 function includesSeven(array) {
-  var sevenIncluded = 0;
+  var sevenIncluded = false;
   for (var i = 0; i < array.length; i++) {
     if (array[i] === 7) {
-      sevenIncluded += 1;
+      sevenIncluded = true;
     }
   }
-  if (sevenIncluded > 0) {
+  if (sevenIncluded === true) {
     return true;
   } else {
     return false;
