@@ -6,11 +6,7 @@ function includesSeven(array) {
       sevenIncluded = true;
     }
   }
-  if (sevenIncluded === true) {
-    return true;
-  } else {
-    return false;
-  }
+  return sevenIncluded;
 }
 
 /*
