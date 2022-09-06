@@ -1,17 +1,16 @@
 /* exported isUpperCased */
 function isUpperCased(word) {
-  var isLower = 0;
+  var isUpper = true;
   for (var i = 0; i < word.length; i++) {
-    if (word[i] !== word[i].toUpperCase()) {
-      isLower += 1;
+    if (word[i] === word[i].toUpperCase()) {
+      isUpper = true;
       continue;
+    } else {
+      isUpper = false;
+      break;
     }
   }
-  if (isLower > 0) {
-    return false;
-  } else {
-    return true;
-  }
+  return isUpper;
 }
 
 /*

@@ -1,15 +1,14 @@
 /* exported isLowerCased */
 function isLowerCased(word) {
-  var isUpper = 0;
+  var isLower = true;
   for (var i = 0; i < word.length; i++) {
-    if (word[i] !== word[i].toLowerCase()) {
-      isUpper += 1;
+    if (word[i] === word[i].toLowerCase()) {
+      isLower = true;
       continue;
+    } else {
+      isLower = false;
+      break;
     }
   }
-  if (isUpper > 0) {
-    return false;
-  } else {
-    return true;
-  }
+  return isLower;
 }
