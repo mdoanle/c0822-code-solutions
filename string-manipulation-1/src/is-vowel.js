@@ -2,19 +2,14 @@
 function isVowel(char) {
   var testingVariable = char.toUpperCase();
   var upperCaseVowels = ['A', 'E', 'I', 'O', 'U'];
-
-  if (testingVariable === upperCaseVowels[0]) {
-    return true;
-  } else if (testingVariable === upperCaseVowels[1]) {
-    return true;
-  } else if (testingVariable === upperCaseVowels[2]) {
-    return true;
-  } else if (testingVariable === upperCaseVowels[3]) {
-    return true;
-  } else if (testingVariable === upperCaseVowels[4]) {
-    return true;
-  } else {
-    return false;
+  var booleanOutput = true;
+  for (var i = 0; i < upperCaseVowels.length; i++) {
+    if (testingVariable === upperCaseVowels[i]) {
+      booleanOutput = true;
+      continue;
+    } else if (testingVariable !== upperCaseVowels[i]) {
+      booleanOutput = false;
+    }
   }
-
+  return booleanOutput;
 }
