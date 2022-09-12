@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+span {
+  font-size: 5rem;
+  white-space: pre;
+}
+
+.next.letter {
+  border-bottom: solid;
+}
+
+.correct.letter {
+  color: greenyellow;
+}
+
+.wrong.letter {
+  color: red;
+  border-bottom: solid;
+}
