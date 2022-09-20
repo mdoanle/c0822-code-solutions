@@ -61,11 +61,13 @@ function dotSelectedImage(event) {
   var $selectedDot = event.target.closest('.fa-circle');
   var $dots = document.querySelectorAll('.fa-circle');
   hideCurrentPokemon();
+
   for (var i = 0; i < $dots.length; i++) {
     if ($selectedDot === $dots[i]) {
       currentPokemonID = i;
     }
   }
+
   showNextPokemon();
   resetTimer();
 }
