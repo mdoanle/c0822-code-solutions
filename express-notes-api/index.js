@@ -5,7 +5,10 @@ const app = express();
 app.get('/api/notes', (req, res) => {
   const noteArr = [];
   fs.readFile('data.json', 'utf-8', (err, data) => {
-    if (err) throw err;
+    if (err) {
+      console.error(err);
+      res.status(500).json({ error: 'Unexpected error!' });
+    }
     const obj = JSON.parse(data);
     const notes = obj.notes;
     for (const key in notes) {
@@ -21,7 +24,10 @@ app.get('/api/notes/:id', (req, res) => {
     res.status(400).json({ error: 'That aint a positive number!' });
   } else {
     fs.readFile('data.json', (err, data) => {
-      if (err) throw err;
+      if (err) {
+        console.error(err);
+        res.status(500).json({ error: 'Unexpected error!' });
+      }
       const obj = JSON.parse(data);
       const notes = obj.notes;
       if (notes[idNum]) {
