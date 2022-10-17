@@ -8,6 +8,7 @@ app.get('/api/notes', (req, res) => {
     if (err) {
       console.error(err);
       res.status(500).json({ error: 'Unexpected error!' });
+      return;
     }
     const obj = JSON.parse(data);
     const notes = obj.notes;
@@ -27,6 +28,7 @@ app.get('/api/notes/:id', (req, res) => {
       if (err) {
         console.error(err);
         res.status(500).json({ error: 'Unexpected error!' });
+        return;
       }
       const obj = JSON.parse(data);
       const notes = obj.notes;
@@ -49,6 +51,7 @@ app.post('/api/notes', (req, res) => {
       if (err) {
         console.error(err);
         res.status(500).json({ error: 'Unexpected error occured' });
+        return;
       }
 
       const dataObj = JSON.parse(data);
@@ -77,6 +80,7 @@ app.post('/api/notes', (req, res) => {
 app.delete('/api/notes/:id', (req, res) => {
   if (req.params.id < 0 || isNaN(req.params.id)) {
     res.status(400).json({ error: 'Id must be a positive number!' });
+    return;
   }
   fs.readFile('data.json', 'utf8', (err, data) => {
     if (err) {
@@ -113,12 +117,14 @@ app.put('/api/notes/:id', (req, res) => {
     if (err) {
       console.error(err);
       res.status(500).json({ error: 'Unexpected error!' });
+      return;
     }
     const dataObj = JSON.parse(data);
     const notes = dataObj.notes;
 
     if (!notes[req.params.id]) {
       res.status(404).json({ error: `No entry found at id number ${req.params.id}!` });
+      return;
     }
 
     req.body.id = Number(req.params.id);
@@ -127,6 +133,7 @@ app.put('/api/notes/:id', (req, res) => {
     fs.writeFile('data.json', updatedObj, err => {
       if (err) {
         res.status(500).json({ error: 'Unexpected error!' });
+        return;
       }
       res.status(200).json(req.body);
     });
