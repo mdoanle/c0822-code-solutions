@@ -1,5 +1,5 @@
-select "genres"."name" as "genreName",
-        count("actors"."actorId") as "Films"
+select "genres"."name",
+        count("castMembers"."actorId") as "numberOfFilms"
   from "genres"
   join "filmGenre" using ("genreId")
   join "castMembers" using ("filmId")
