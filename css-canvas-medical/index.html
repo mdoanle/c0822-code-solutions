@@ -10,116 +10,105 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
 
-    <div class="row nav-bar">
-      <div class="column-half">
-        <img src="images/logo-blue.svg" alt="canvas-blue">
-      </div>
-      <div class="column-half nav-bar-right">
-        <a>Product</a>
-        <a>Implementation</a>
-        <a>About Us</a>
-        <a>Blog</a>
-        <input type="submit" value="Contact Us">
+  <div class="nav-top">
+    <img src="images/logo-blue.svg" alt="canvas-logo">
+    <div class="nav-content">
+      <a>Product</a>
+      <a>Implementation</a>
+      <a>About Us</a>
+      <a>Blog</a>
+      <button>Contact Us</button>
+    </div>
+  </div>
+
+
+  <div class="row" id="hero-portion">
+    <div class="hero-picture">
+      <div class="overlay"></div>
+      <section>
+        <h2 class="hero-portion-headline">The EMR Reimagined for<br> Primary Care</h2>
+        <p class="hero-portion-text">Cant remember the last time you talked with a patient without focusing<br>
+          on the EMR? Canvas let you rediscover joy in the work you do. Capture<br>
+          meaningful data, identify gaps in care, and move seamlessly between<br>
+          tasks within the platform. You stay present with patients while your<br>
+          whole care team stays up-to-speed. Be a better doctor with Canvas,<br>
+          designed for primary care providers with the help of primary care<br> providers.
+        </p>
+      </section>
+      <input type="submit" name="get-started" value="Get Started">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column-full clinicians-prefer-bg">
+      <section class="clinicians-prefer">
+        <h2>Clinicians Prefer Canvas</h2>
+        <p>Physician-owned primary care practices across the country have<br> already
+          made Canvas the fabric of their care.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <div class="row" id="locations">
+    <div class="column-half">
+      <div class="left-column">
+        <p>Cascade Family Practice, Portland OR </p>
+        <p>Temescal Creek Medicine, Oakland CA</p>
+        <p>San Juan Healthcare, Friday Harbor WA</p>
       </div>
     </div>
-
-    <div class="row" id="hero-portion">
-      <div class="hero-picture">
-        <div class="overlay"></div>
-        <section>
-          <h2 class="hero-portion-headline">The EMR Reimagined for<br> Primary Care</h2>
-          <p class="hero-portion-text">Cant remember the last time you talked with a patient without focusing<br>
-            on the EMR? Canvas let you rediscover joy in the work you do. Capture<br>
-            meaningful data, identify gaps in care, and move seamlessly between<br>
-            tasks within the platform. You stay present with patients while your<br>
-            whole care team stays up-to-speed. Be a better doctor with Canvas,<br>
-            designed for primary care providers with the help of primary care<br> providers.
-          </p>
-        </section>
-        <input type="submit" name="get-started" value="Get Started">
+    <div class="column-half">
+      <div class="right-column">
+        <p>Ward Medical Clinic, Bonifay FL</p>
+        <p>Caribou Medical, Towanda PA</p>
+        <p>Bay Tree Family Care, Red Bay AL</p>
       </div>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="column-full clinicians-prefer-bg">
-        <section class="clinicians-prefer">
-          <h2>Clinicians Prefer Canvas</h2>
-          <p>Physician-owned primary care practices across the country have<br> already
-            made Canvas the fabric of their care.
-          </p>
-        </section>
+  <div class="row">
+    <div class="column-half">
+      <section class="learn-more">
+        <h2>Ready to learn more?</h2>
+        <p>Schedule a private meeting now</p>
+      </section>
+    </div>
+    <div class="column-half">
+      <input class="get-started" type="submit" name="learn-more-submit" value="Get Started">
+    </div>
+  </div>
+
+  <footer>
+    <div class="address">
+      <img src="images/logo-white.png" alt="Canvas Logo">
+      <address>2307 Irving Street, Suite 228<br>San Fransisco CA 94122<br>
+        (800) 370-1416<br>
+        info@canvasmedical.com
+      </address>
+    </div>
+    <div class="bottom-nav-columns">
+      <div class="bottom-navbar">
+        <p class="header">Company</p>
+        <p>About Us</p>
+        <p>Blog</p>
+      </div>
+      <div class="bottom-navbar">
+        <p class="header">Product</p>
+        <p>Product</p>
+        <p>Implementation</p>
+        <p>For Health Plans</p>
+        <p>Security</p>
       </div>
     </div>
-
-    <div class="row" id="locations">
-      <div class="column-half">
-        <div class="left-column">
-          <p>Cascade Family Practice, Portland OR </p>
-          <p>Temescal Creek Medicine, Oakland CA</p>
-          <p>San Juan Healthcare, Friday Harbor WA</p>
-        </div>
-      </div>
-      <div class="column-half">
-        <div class="right-column">
-          <p>Ward Medical Clinic, Bonifay FL</p>
-          <p>Caribou Medical, Towanda PA</p>
-          <p>Bay Tree Family Care, Red Bay AL</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="column-half">
-        <section class="learn-more">
-          <h2>Ready to learn more?</h2>
-          <p>Schedule a private meeting now</p>
-        </section>
-      </div>
-      <div class="column-half">
-        <input class="get-started" type="submit" name="learn-more-submit" value="Get Started">
-      </div>
-    </div>
-
-    <div class="row about-us">
-      <div class="column-half">
-        <section class="address">
-          <img class="logo-white" src="images/logo-white.png" alt="canvas-logo-white">
-          <p>2307 Irving Street, Suite 228<br>San Francisco CA 94122<br>(800) 370-1416
-            <br>info@canvasmedical.com
-          </p>
-        </section>
-      </div>
-
-      <div class="column-half company-product">
-
-        <div class="company">
-          <ul class="company-list">
-            <li>COMPANY</li>
-            <li><a>About Us</a></li>
-            <li><a>Blog</a></li>
-          </ul>
-        </div>
-
-        <div class="product">
-          <ul>
-            <li>PRODUCT</li>
-            <li><a>Product</a></li>
-            <li><a>Implementation</a></li>
-            <li><a>For Health Plans</a></li>
-            <li><a>Security</a></li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
+  </footer>
 
 
-    <div class="row" id="privacy">
-      <input class="privacy-terms" type="submit" name="privacy" value="Privacy &amp; Terms">
-      <input class="contact-us" type="submit" name="contact" value="Contact Us">
-    </div>
+  <div class="row" id="privacy">
+    <input class="privacy-terms" type="submit" name="privacy" value="Privacy &amp; Terms">
+    <input class="contact-us" type="submit" name="contact" value="Contact Us">
+  </div>
 
 
   </div>
@@ -127,3 +116,7 @@
   </div>
 </body>
 </html>
+
+
+
+</body>
