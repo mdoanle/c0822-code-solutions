@@ -111,7 +111,7 @@ div.right-column > p {
   font-size: 0.85rem;
 }
 
-#locations {
+.locations {
   background-color: rgb(250 250 250);
   padding: 2rem;
 }
@@ -247,7 +247,7 @@ li {
   color: yellow;
 }
 
-#hero-portion {
+.hero-portion {
   margin-top: 2rem;
   margin-right: 5%;
 }
@@ -284,7 +284,7 @@ li {
   bottom: 0;
 }
 
-#privacy {
+.privacy {
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
@@ -303,7 +303,7 @@ li {
   color: rgb(168 168 168);
 }
 
-#privacy > input:hover {
+.privacy > input:hover {
   color: yellow;
 }
 
