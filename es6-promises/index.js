@@ -5,5 +5,5 @@ const promProm = takeAChance('Markus');
 promProm.then(message => {
   console.log(message);
 }).catch(error => {
-  console.error(error);
+  console.error(error.message);
 });
