@@ -1,0 +1,34 @@
+#container {
+  height: 100vh;
+  flex-direction: column;
+}
+
+#container,
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch {
+  border: 4px solid black;
+  height: 150px;
+  width: 150px;
+  border-radius: 80px;
+}
+
+.stopwatch:hover {
+  cursor: pointer;
+}
+
+.counter {
+  height: 100%;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+i {
+  margin-top: 30px;
+  font-size: 2rem;
+}
