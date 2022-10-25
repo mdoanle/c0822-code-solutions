@@ -1,0 +1,38 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  height: 60px;
+  width: 120px;
+  border-radius: 35px;
+  background-color: gray;
+  display: inline-block;
+  padding: 5px;
+}
+
+.switch-on {
+  background-color: green;
+}
+
+.slider {
+  background-color: rgb(241 240 240);
+  width: 60px;
+  border-radius: 75px;
+  height: 100%;
+  display: inline-block;
+}
+
+.slider-on {
+  position: relative;
+  left: 60px;
+}
+
+.switch-state {
+  margin-left: 15px;
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
