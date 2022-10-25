@@ -1,0 +1,41 @@
+button {
+  border-radius: 5px;
+  color: white;
+  height: 50px;
+  width: 150px;
+  font-size: 1.2rem;
+}
+
+.row {
+  text-align: center;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.violet {
+  background-color: rgb(103 78 167);
+}
+
+.pink {
+  background-color: rgb(224 102 102);
+}
+
+.orange {
+  background-color: rgb(246 178 107);
+}
+
+.yellow {
+  background-color: rgb(255 255 0);
+  color: black;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
