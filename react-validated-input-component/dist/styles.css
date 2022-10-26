@@ -1,0 +1,23 @@
+label {
+  display: block;
+}
+
+.user-message {
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.75rem;
+  margin-top: 5px;
+}
+
+i {
+  display: inline;
+  margin-left: 10px;
+}
+
+.fa-xmark {
+  color: red;
+}
+
+.fa-check {
+  color: green;
+}
