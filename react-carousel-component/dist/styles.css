@@ -1,0 +1,25 @@
+.container {
+  width: 500px;
+  border: 2px black solid;
+}
+
+.carousel-container {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  height: 75%;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i:hover {
+  cursor: pointer;
+}
